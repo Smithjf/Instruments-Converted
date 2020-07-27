@@ -9,11 +9,11 @@ public class String_Instrument : Instrument
         {
             if (value < 2000)
             {
-                cost = 2000;
+                cost1 = 2000;
             }
             else
             {
-                cost = value;
+                cost1 = value;
             }
         }
     }
