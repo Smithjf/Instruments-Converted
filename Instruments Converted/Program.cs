@@ -24,7 +24,7 @@ namespace Instruments_Converted
 
             if (InstrumentType.ToLower() == "brass")
             {
-                
+
                 Console.WriteLine("What material is the instrument made of? : ");
                 string Material = Console.ReadLine();
 
@@ -35,7 +35,7 @@ namespace Instruments_Converted
                 I1.DisplayInstrument();
             }
 
-            
+
             if (InstrumentType.ToLower() == "string")
             {
                 bool isbowed = true;
@@ -53,7 +53,7 @@ namespace Instruments_Converted
                     isbowed = false;
                 }
 
-               
+
                 Instrument I2 = new String_Instrument(name, Cost, isbowed, numstrings);
                 I2.DisplayInstrument();
 
