@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,22 +12,55 @@ namespace Instruments_Converted
     {
         static void Main(string[] args)
         {
-            Instrument I1 = new Brass("Trombone", -1, "Brass", "Blaring");
-            I1.Cost = 7510;
-            I1.DisplayInstrument();
+            Console.WriteLine("Is the instrument a brass or string instrument : ");
+            string InstrumentType = Console.ReadLine();
 
-            Instrument I2 = new String_Instrument("Violin", -1, true, 4);
-            I2.Cost = -2000;
-            I2.DisplayInstrument();
-         
+            Console.WriteLine("Enter The name of the instrument : ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("What is the cost of the instrument? : ");
+            int Cost = Int32.Parse(Console.ReadLine());
 
 
+            if (InstrumentType.ToLower() == "brass")
+            {
+                
+                Console.WriteLine("What material is the instrument made of? : ");
+                string Material = Console.ReadLine();
 
-            string tempname = I1.Name;
-            int tempcost = I1.Cost;
+                Console.WriteLine("What kind of sound does the instrument make? : ");
+                string SoundMaking = Console.ReadLine();
 
-            string tempname2 = I2.Name;
-            int tempcost2 = I2.Cost;
+                Instrument I1 = new Brass(name, Cost, Material, SoundMaking);
+                I1.DisplayInstrument();
+            }
+
+            
+            if (InstrumentType.ToLower() == "string")
+            {
+                bool isbowed = true;
+                Console.WriteLine("How many strings does the instrument have? : ");
+                int numstrings = Int32.Parse(Console.ReadLine());
+
+                Console.WriteLine("Is the instrument bowed? : ");
+                string answer = Console.ReadLine();
+                if (answer.ToLower() == "yes")
+                {
+                    isbowed = true;
+                }
+                if (answer.ToLower() == "no")
+                {
+                    isbowed = false;
+                }
+
+               
+                Instrument I2 = new String_Instrument(name, Cost, isbowed, numstrings);
+                I2.DisplayInstrument();
+
+
+            }
+
+
         }
     }
 }
