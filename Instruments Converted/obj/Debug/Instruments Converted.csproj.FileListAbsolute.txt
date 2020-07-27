@@ -1,0 +1,14 @@
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\bin\Debug\Instruments Converted.exe.config
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\bin\Debug\Instruments Converted.exe
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\bin\Debug\Instruments Converted.pdb
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\obj\Debug\Instruments Converted.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\obj\Debug\Instruments Converted.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\obj\Debug\Instruments Converted.exe
+C:\Users\Owner\source\repos\Instruments Converted\Instruments Converted\obj\Debug\Instruments Converted.pdb
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\bin\Debug\Instruments Converted.exe.config
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\bin\Debug\Instruments Converted.exe
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\bin\Debug\Instruments Converted.pdb
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\obj\Debug\Instruments Converted.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\obj\Debug\Instruments Converted.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\obj\Debug\Instruments Converted.exe
+C:\Users\Owner\source\repos\Instruments-Converted\Instruments Converted\obj\Debug\Instruments Converted.pdb
