@@ -3,11 +3,11 @@ using System.Globalization;
 
 public class Instrument
 {
-    protected string nametwo;
+    protected string InstrumentName;
     public string Name
     {
-        get { return nametwo; }
-        protected set { nametwo = value; }
+        get { return InstrumentName; }
+        protected set { InstrumentName = value; }
     }
 
     protected int cost1;
@@ -31,7 +31,7 @@ public class Instrument
 
     public virtual void DisplayInstrument()
     {
-        Console.WriteLine("The name of the instrument is : " + nametwo);
+        Console.WriteLine("The name of the instrument is : " + InstrumentName);
         Console.WriteLine("The cost of the instrument is : " + cost1.ToString("C", CultureInfo.CurrentCulture));
 
     }
