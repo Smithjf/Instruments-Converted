@@ -16,14 +16,7 @@ public class Instrument
         get { return cost; }
         set
         {
-            if (value < 1000)
-            {
-                cost = 1000;
-            }
-            else
-            {
-                cost = value;
-            }
+            cost = Math.Max(value, 1000);
         }
     }
 
