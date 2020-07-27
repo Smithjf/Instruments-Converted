@@ -9,12 +9,15 @@ public class String_Instrument : Instrument
         {
             if (value < 2000)
             {
-                cost2 = 2000;
+
+                cost1 = 2000;
             }
             else
             {
-                cost2 = value;
+                cost1 = value;
+
             }
+           
         }
     }
     private bool isbowed;
