@@ -9,14 +9,14 @@ public class Instrument
         get { return name; }
         protected set { name = value; }
     }
-    protected int cost;
+    protected int cost2;
 
     public virtual int Cost
     {
-        get { return cost; }
+        get { return cost2; }
         set
         {
-            cost = Math.Max(value, 1000);
+            cost2 = Math.Max(value, 1000);
         }
     }
 
@@ -30,7 +30,7 @@ public class Instrument
     public virtual void DisplayInstrument()
     {
         Console.WriteLine("The name of the instrument is : " + name);
-        Console.WriteLine("The cost of the instrument is : " + cost.ToString("C", CultureInfo.CurrentCulture));
+        Console.WriteLine("The cost of the instrument is : " + cost2.ToString("C", CultureInfo.CurrentCulture));
     }
 
 
