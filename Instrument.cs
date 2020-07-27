@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 public class Instrument
 {
@@ -36,7 +37,7 @@ public class Instrument
     public virtual void DisplayInstrument()
     {
         Console.WriteLine("The name of the instrument is : " + name);
-        Console.WriteLine("The cost of the instrument is : " + cost);
+        Console.WriteLine("The cost of the instrument is : " + cost.ToString("C", CultureInfo.CurrentCulture));
     }
 
 
