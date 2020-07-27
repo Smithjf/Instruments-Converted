@@ -22,10 +22,10 @@ public class Instrument
         }
     }
 
-    public Instrument(string N, int C)
+    public Instrument(string n, int c)
     {
-        Name = N;
-        Cost = C;
+        Name = n;
+        Cost = c;
         
     }
 
